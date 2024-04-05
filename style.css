@@ -56,6 +56,24 @@ body
   display: flex;
 }
 
+.speaker-form-header1
+{
+  text-align: center;
+  background-color: #45a2ff;
+  border: 1px solid #D6D9DC;
+  border-radius: 50px; 
+  border: 10px solid var(--clr-slightdark);
+
+  width: 80%;
+  margin: 20px 0;
+  padding: 50px;
+}
+
+.speaker-form-header1 a:hover{
+  cursor: pointer;
+  color: #1E71B7;
+}
+
 .speaker-form-header .logo img{
   border-radius: 20px;
 }
